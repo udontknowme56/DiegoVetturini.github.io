@@ -37,11 +37,9 @@
 ---
 
 ### link per l'indice:
-</div>
-        <div class="file-container">
-            <div class="file-text">
-                <h2><a href="indice.html">indice</a></h2>
-</div>
+
+<a href="indice.html">indice</a><
+
 
 >
 
