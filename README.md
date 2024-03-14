@@ -38,10 +38,9 @@
 
 ### link per l'indice:
 
-<a href="indice.html">indice</a><
+<a href="indice.html">indice</a>
 
 
->
 
 <h3 align="left">ig:</h3>
 <p align="left">
