@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://wallpaperset.com/w/full/e/3/2/107270.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: lexend;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-family: lexend;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.neon-button:hover {
+  background-color: #C90505;
+}
+
+#continue-shopping {
+  margin-right: 25px;
+}
+
+#go-to-cart {
+  margin-left: 25px;
+}
+
+  .neon-button {
+    display: inline-block;
+    margin: 20px auto; 
+    padding: 20px 60px; 
+    font-size: 18px;
+    font-family: lexend;
+    border: none;
+    border-radius: 5px;
+    background-color: #121213;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    text-shadow: 0 0 10px #C90505;
+    box-shadow: 0 0 10px #C90505;
+    margin-bottom: 50px;
+  }
+  
+  .neon-button:hover {
+    background-color: #C90505;
+    color: #121213;
+    text-shadow: 0 0 20px #C90505;
+    box-shadow: 0 0 20px #C90505;
+  }

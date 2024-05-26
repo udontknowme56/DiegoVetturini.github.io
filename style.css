@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: helvetica;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left-buttons, .right-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .neon-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 10px orange;
+    margin: 10px;
+    font-family: helvetica;
+    font-weight: bold;
+  }
+  
+  .neon-button:hover {
+    background-color: darkorange;
+  }
+
+  .neon-button-final {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+    margin: 10px;
+    font-family: helvetica;
+    font-weight: bold;
+  }
+
+  .neon-button-final:hover {
+    background-color: darkred;
+  }

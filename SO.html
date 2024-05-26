@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sistemi Operativi</title>
+	<link rel="stylesheet" type="text/css" href="SistemaOP.css">
+</head>
+<body>
+	<header>
+		<div class="header-content">
+            <h1>Il sistema operativo</h1>
+        </div>
+	</header>
+	<main class="scrolling-container">
+		<img src="https://www.astronomy.com/wp-content/uploads/sites/2/2023/10/frame_0000.jpg?fit=620%2C620" alt="Background Image">
+		<article class="text-container">
+			<h2>Il sistema operativo Sistema operativo</h2>
+			<h3>Il kernel</h3>
+			<p>il kernel Parte da un nucleo centrale ovvero il kernel, il kernel è il tramite tra la parte hardware e la parte software, si occupa di gestire il processore e risale pian piano verso l’esterno affinché l’utente può avviare i programmi</p>
+			<h3>Il sistema operativo</h3>
+			<p>il sistema operativo è un interfaccia che collega gli utenti e il dispositivo  mettendo a disposizione strumenti di lavoro e piccole procedure che facilitano L’interazion</p>
+		</article>
+		<article class="text-container">
+			<h2>L'avvio dei dispositivi</h2>
+			<ol>
+				<li>Comincia con la parte di boot dove ci sono due accensioni, una fisica che prevede l'alimentazione di tutti i componenti e una logica (inizializzazione)</li>
+				<li>Il processore carica il BIOS (Basic Input Output System) che si occupa delle routine successive (Di solito è incorporato col UEFI)</li>
+				<li>Successivamente il BIOS procede alla fase di diagnostica detta POST (Power On Self Test) che verifica il corretto funzionamento di tutte le componenti</li>
+				<li>Se la fase POST viene superata il BIOS carica dalla memoria il Boot Loader ovvero il programma dedicato all avvio dell SO anche se non carica tutto il sistema operativo ma soltanto il kernel</li>
+				<li>Terminata anche la fase di boot il PC passa sotto il controllo del sistema operativo di log dell utente (login) per accedere al Desktop</li>
+			</ol>
+		</article>
+		<article class="text-container">
+			<h2>Il Desktop</h2>
+			<p>quasi tutti i SO adottano Un interfaccia grafica (GUI) Touch friendly, che non solo è a portata di mouse e tastiera ma anche di tocco (multi touch), ma esistono anche SO con interfaccia a riga di comando (come ms - dos)</p>
+			<h3>iL Desktop èformato da:</h3>
+			<ul>
+				<li>Il desktop:  è l’ambiente di lavoro principale, come dice il nome “Desktop” è come una scrivania con cui l’utente può inserire nuove icone e aprire programmi</li>
+				<li>Desktop virtuali: inseriti negli ultimi sistemi operativi servono ad avere diversi desktop allo stesso momento per evitare confusione, dove per esempio in uno ci lavori con email e in un altro ci fai le cose personale come viaggi o social media</li>
+				<li>Le icone: sono degli elementi grafici che identificano programmi,file,risorse ecc.. (come la F di Facebook)</li>
+				<li>Le App: Attraverso le icone si possono aprire le applicazioni specifiche</li>
+				<li>Widget: sono delle piccole applicazioni che permettono di accedere a delle informazioni piu velocemente e facilmente mostrando solo una piccola parte (come il widget del meteo)</li>
+			</ul>
+		</article>
+		<article class="text-container">
+			<h2>Vantaggi SO</h2>
+			<table>
+				<caption>Vantaggi</caption>
+				<tr>
+					<td><b>Windows</b></td>
+					<td>Ampia compatibilità hardware</td>
+					<td>Software disponibile</td>
+                    <td>Gaming</td>
+				</tr>
+				<tr>
+					<td><b>Linux</b></td>
+					<td>Open source e gratuito</td>
+                    <td>Molto veloce e richiede poco spazio</td>
+					<td>Sicuro</td>
+				</tr>
+				<tr>
+					<td><b>Mac OS</b></td>
+					<td>Semplice</td>
+					<td>Professionale</td>
+                    <td>Sicuro</td>
+				</tr>
+			</table>
+			<table>
+				<caption>Svantaggi</caption>
+				<tr>
+					<td><b>Windows</b></td>
+					<td>Vulnerabilità ai virus e malware</td>
+					<td>A pagamento</td>
+                    <td>Sofwtare propietario</td>
+				</tr>
+				<tr>
+					<td><b>Linux</b></td>
+					<td>Manca il supporto per programmi base come la suite Office</td>
+					<td>Supporto hardware non sempre perfetto</td>
+                    <td>sviluppo limitato gaming</td>
+				</tr>
+				<tr>
+					<td><b>Mac OS</b></td>
+					<td>Supporto hardware</td>
+					<td>Harware caro</td>
+                    <td>Software propietario</td>
+				</tr>
+			</table>
+		</article>
+		<article class="text-container">
+			<h2>Il firmware</h2>
+			<p>Il pc parte con il firmware che esegue delle routine per l’avvio del pc, prima si trovava nella ROM ora nella NVRAM (di tipo flash)</p>
+			<p>I suoi compiti sono:</p>
+			<ul>
+				<li>controllare l’avvio del pc</li>
+				<li>inizializzare le periferiche</li>
+				<li>ricercare i drive su cui è installato il SO</li>
+				<li>avviare le funzioni di base del kernel del SO</li>
+			</ul>
+		</article>
+		<article class="text-container">
+			<h2>Il BIOS e il UEFI</h2>
+			<p>Il bios è il firmware introdotto nei primi pc poi superato dal UEFI (Unified Extensible Firmware Interface)</p>
+			<p>il bios svolge funzioni di basso livello in grado di accedere all hardware</p>
+			<p> bios più diffusi sono ami bios, phoenix bios e award bios</p>
+			<p>il bios pure può essere aggiornato e questo processo si chiama flashing BIOS (solitamente per riparare errori)</p>
+			<p>questo aggiornamento non si effettua spesso, in caso l’alimentazione venga staccata durante l’aggiornamento può causare gravi danni alla scheda madre (brick)</p>
+		</article>
+		<article class="text-container">
+			<h2>La batteria CMOS</h2>
+			<p>La complementary Metal Oxide Semiconductor (CMOS) era una piccola memoria nella scheda madre che memorizza e impostazioni del bios, nelle schede madri attuali sono memorizzate nella in una memoria volatile della RAM (NVRAM)</p>
+		</article>
+		<article class="text-container">
+			<h2>Il Bootstrap</h2>
+			<p>Il bootstrap del PC è il processo attraverso il quale il computer carica e avvia il sistema operativo, caricando il codice di avvio iniziale (detto bootloader) dal firmware del computer (BIOS o UEFI) e poi eseguendo il codice del bootloader per avviare il sistema operativo presente sul disco rigido o su altri dispositivi di archiviazione.</p>
+		</article>
+		<article class="text-container">
+			<h2>Il Master boot record</h2>
+			<p>Il bios non conoscendo l’organizzazione dei file può leggere solo blocchi del disco, di conseguenza il boot loader è salvato nel primo hard disk avviabile, e occupa 512 byte chiamato Master Boot Record (MBR) (Nei sistemi linux si chiama slave boot program)</p>
+			<p>Nei 512 byte dell MBR:</p>
+			<ul>
+                <li>i primi 466 contengono il first stage boot loader, un codice eseguibile scritto in assembly che scansiona  i boot sector per trovare il second stage boot loader</li>
+				<li>i successivi 64 hanno la partition table che contengono le informazioni di partizione del disco</li>
+				<li>gli ultimi 2 contengono il magic number al quale si fa riferimento il termine signature che è usato per indicare la fine del MBR</li>
+			</ul>
+		</article>
+		<article class="text-container">
+			<h2>File Systems e Struttura partizioni</h2>
+			<p>Il file system è la struttura usata dal sistema operativo per organizzare e gestire i file in un dispositivo , Quando si formatta una partizione di deve scegliere quale file system usare,per esempio:</p>
+			<ul>
+				<li>NFTS (New technology file system): utilizzato dai sistemi windows</li>
+				<li>FAT32 (File Allocation Table): utilizzato principalmente dai vecchi sistemi windows e linux</li>
+				<li>ext4 (fourth extended filesystem): utilizzato sempre dai sistemi linux</li>
+				<li>primaria: quella richiesta dai sistemi windows dove ci possono essere max 4 partizioni primarie</li>
+				<li>estesa: in un disco ce ne può essere solo una e può essere suddivisa in ulteriori unità logica</li>
+			</ul>
+			<h3> La tabella delle partizioni è strutturata in questo modo:</h3>
+			<ul>
+				<li>stato: 1 byte che assume come valore 0x80, quando è attiva vale 0x00</li>
+				<li>Primo settore CHS (Cylinder Head Sector): 3 byte che contengono l’indirizzo del primo settore della partizione</li>
+				<li>Tipo: 1 byte che contiene un numero che identifica il file system della partizione</li>
+				<li>Ultimo settore CHS: 3 byte che contengono l’indirizzo dell’ultimo settore della partizione</li>
+			</ul>
+		</article>
+	</main>
+</body>
+</html>

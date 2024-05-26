@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>FitGear Italia</title>
+        <link rel="stylesheet" type="text/css" href="StoreFIN.css" />
+    </head>
+    <body>
+      <header style="background-color: #ffffff;">
+        <div class="installation">
+          <div class="logo-container">
+            <img src="https://i.ibb.co/JFtcsS4/Black-and-White-Sporting-Club-Logo.jpg" alt="Store Logo" class="logo">
+          </div>
+          <div class="store-name">FITGEAR ITALIA</div>
+          <div class="about-us" onclick="location.href='Chi siamo.html';">Chi siamo</div>
+        </div>
+      </header>
+      <div class="gallery">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <div class="image-container">
+            <img src="https://www.radiolinea.it/wp-content/uploads/2023/09/break-workout_602724.jpg" style="width:100%" class="gallery-image">
+            <div class="caption-container">
+              <p class="caption">BY ATHLETES FOR ATHLETES</p>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <div class="image-container">
+            <img src="https://web-back.perfectgym.com/sites/default/files/styles/460x/public/equipment%20%286%29.jpg?itok=bC0T32-K" style="width:100%" class="gallery-image">
+            <div class="caption-container">
+              <p class="caption">BY ATHLETES FOR ATHLETES</p>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <div class="image-container">
+            <img src="https://thisisgalway.ie/wp-content/uploads/2022/10/fitness-feature.jpg" style="width:100%" class="gallery-image">
+            <div class="caption-container">
+              <p class="caption">BY ATHLETES FOR ATHLETES</p>
+            </div>
+          </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div class="product-description">
+        <div class="product-text">
+          <b><p>VENDIAMO INTEGRATORI DI ALTA QUALITA' PER L'USO QUOTIDIANO.</p></b>
+          <b><p>INTEGRATORI COME PROTEINE IN POLVERE,CREATINA MONOIDRATA E PRE-WORKOUT</p></b>
+          <a href="Pagina prezzi.html" class="neon-button">
+            COMPRA ORA
+          </a>
+          </a>
+        </div>
+      </div>
+      <section class="background-section">
+        <div class="container">
+          <h2 class="title">PERCHE SCEGLIERE NOI?</h2>
+          <p class="text">L'EFFICENZA,LA QUALITA E IL GUSTO DEI NOSTRI PRODOTTI</p>
+          <p class="text subtitle">NON HA EQUALI</p>
+          <img src="https://i.ibb.co/vVQxxYH/Screenshot-2024-05-23-215110.png" alt="Little image" class="image">
+        </div>
+      </section>
+      <div class="product-section">
+        <p class="product-section-text">GLI ATTUALI SERVIZI CHE OFFRIAMO:</p>
+        <a href="servizi.html" class="product-section-neon-button">
+          SERVIZI
+        </a>
+    </div>
+    <footer class="footer">
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="Chi siamo.html">Chi siamo</a></li>
+        <li class="menu__item"><a class="menu__link" href="servizi.html">Servizi</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contatti</a></li>
+  
+      </ul>
+      <p>&copy;2024 Fit gear Italia | Tutti i diritti riservati</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+      </script>
+    </body>
+</html>

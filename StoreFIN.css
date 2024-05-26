@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lexend");
+
+body {
+  margin: 0;
+}
+
+header {
+  color: #121213;
+  padding: 20px;
+  font-family: lexend;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.installation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.store-name {
+  text-align: center;
+  margin-left: 10px;
+  font-size: 24px;
+  text-shadow: 1px 1px 0 rgba(49, 45, 45, 0.5);
+  font-family: lexend
+  ;
+}
+
+.about-us {
+  position: absolute;
+  right: 20px;
+  padding: 20px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.gallery {
+  position: relative;
+  margin-bottom: 0 !important;
+}
+
+.mySlides {
+  display: none;
+  margin: 0;
+  margin-bottom: 0 !important;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 0 !important;
+}
+
+.gallery-image {
+  width: 100%;
+  filter: brightness(50%);
+  transition: filter 0.3s ease-in-out;
+  margin: 0;
+}
+
+.gallery-image:hover {
+  filter: brightness(100%);
+}
+
+.caption-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0 !important;
+  
+}
+
+.caption {
+  font-size: 32px;
+  font-family: lexend;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 0 !important;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.product-description {
+  margin-top: 0 !important;
+  margin: 0 auto;
+  display: flex;
+  background: url(https://wallpaperset.com/w/full/e/3/2/107270.jpg);
+  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;         
+  height: 500px;
+  padding: 5rem 0;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.product-description p {
+  background: #ffffff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-family: lexend;
+  font-size: 22px;
+  text-align: center;
+  
+}
+
+.product-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 2px;
+  
+}
+
+.neon-button {
+  display: inline-block;
+  margin: 20px auto; 
+  padding: 20px 60px; 
+  font-size: 18px;
+  font-family: lexend;
+  border: none;
+  border-radius: 5px;
+  background-color: #121213;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  text-shadow: 0 0 10px #C90505;
+  box-shadow: 0 0 10px #C90505;
+}
+
+.neon-button:hover {
+  background-color: #C90505;
+  color: #121213;
+  text-shadow: 0 0 20px #C90505;
+  box-shadow: 0 0 20px #C90505;
+}
+
+.product-section {
+  position: relative;
+  width: 100%;
+  padding: 20rem 0;
+  background-image: url('https://wallpaperset.com/w/full/e/3/2/107270.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.product-section-text {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: lexend;
+  color: #ffffff;
+}
+
+.product-section-neon-button {
+  display: inline-block;
+  margin: 20px auto; 
+  padding: 20px 60px; 
+  font-size: 18px;
+  font-family: lexend;
+  border: none;
+  border-radius: 2px;
+  background-color: #121213;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  text-shadow: 0 0 10px #C90505;
+  box-shadow: 0 0 10px #C90505;
+}
+
+.product-section-neon-button:hover {
+  background-color: #C90505;
+  color: #121213;
+  text-shadow: 0 0 20px #C90505;
+  box-shadow: 0 0 20px #C90505;
+}
+
+.background-section {
+  background-image: url('https://www.baltana.com/files/wallpapers-16/4K-Black-Background-Design-HD-Wallpapers-40664.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%; 
+  background-image: url(https://www.imageshine.in/uploads/gallery/Empty-pure-white-background.jpg);
+  padding: 40px; 
+  height: 60vh; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  font-family: lexend;
+  color: #121213;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-right: 20px;
+  font-family: lexend;
+  color: #121213;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #C90505;
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: lexend;
+}
+
+.image {
+  width: 350px; 
+  height: 300px; 
+  border-radius: 10px;
+}
+.footer {
+  position: relative;
+  width: 100% !important;
+  background: #A5A5A5;
+  min-height: 100px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #6E0E0A;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #121213;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #121213;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
