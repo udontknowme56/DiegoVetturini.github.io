@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lexend ;
+}
+
+body {
+    background-color: #121213;
+}
+
+#aboutUs {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#aboutUs img {
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+.content h2 {
+    font-size: 50px;
+    color: #C90505;
+    font-family: lexend;
+}
+
+.content h4 {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
+    font-family: lexend;
+}
+
+.description {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 100;
+    font-family: lexend;
+}
+
+
+
+@media screen and (max-width: 790px) {
+    #aboutUs img {
+        width: 80%;
+    }
+
+    #aboutUs {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+}
+
+.neon-button {
+    display: inline-block;
+    margin: 20px auto; 
+    padding: 20px 60px; 
+    font-size: 18px;
+    font-family: lexend;
+    border: none;
+    border-radius: 5px;
+    background-color: #121213;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    text-shadow: 0 0 10px #C90505;
+    box-shadow: 0 0 10px #C90505;
+    margin-bottom: 50px;
+  }
+  
+  .neon-button:hover {
+    background-color: #C90505;
+    color: #121213;
+    text-shadow: 0 0 20px #C90505;
+    box-shadow: 0 0 20px #C90505;
+  }
